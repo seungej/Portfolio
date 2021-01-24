@@ -108,10 +108,11 @@ p {
     color: var(--color-white);
     padding: 12px;
     transition: all var(--animation-duration) ease-in-out;
+    z-index: 1;
 }
 
 #navbar.navbar--dark {
-    background-color: var(--color-purple);
+    background-color: var(--color-pink);
     padding: 8px;
 }
 
@@ -138,7 +139,7 @@ p {
 }
 
 .navbar__menu__item:hover {
-    background-color: var(--color-dark-purple);
+    background-color: var(--color-dark-pink);
     border-radius: var(--size-border-radius);
 }
 
